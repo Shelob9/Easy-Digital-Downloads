@@ -60,7 +60,7 @@ if( edd_get_option( 'uninstall_on_delete' ) ) {
 	}
 
 	/** Delete all the Plugin Options */
-	delete_option( 'edd_settings' );
+	delete_option( 'edd_sefttings' );
 
 	/** Delete Capabilities */
 	EDD()->roles->remove_caps();
